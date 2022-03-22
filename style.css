@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap');
+@import url('http://fonts.cdnfonts.com/css/common-pixel');
+
+#title{
+    font-family: 'Hahmlet', serif;
+}
+
+#minutes, #seconds{
+    font-family: 'Common Pixel', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: rgb(51, 51, 51);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+#title{
+    font-size: 4rem;
+}
+
+#timerNumbers{
+    font-size: 5rem;
+    text-shadow: 5px 5px 5px red;
+}
+
+#startBtn, #stopBtn, #reset{
+    background-color: #555555;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px solid #000000
+  
+}
+
+#startBtn:disabled{
+    background-color: #acacac; 
+  color: white;
+  cursor: pointer;
+}
+
+#startBtn:hover, #stopBtn:hover, #reset:hover{
+    background-color: #acacac; 
+  color: white;
+  cursor: pointer;
+}
+
